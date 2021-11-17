@@ -5,12 +5,40 @@
     --Soft-violet: hsl(277, 64%, 61%); /* (accent) */
 
     --White: hsl(0, 0%, 100%); /* (main heading, stats) */
-    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /* (main paragraph) */
-    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6); /* (stat headings) */
+    --Slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75); /* (main paragraph) */
+    --Slightly-transparent-white-stats: hsla(0, 0%, 100%, 0.6); /* (stat headings) */
 }
 
 body {
     font-size: 0.9375em;
+    background: var(--Very-dark-blue);
+}
+
+/* header */
+img {
+    accent-color: var(--Soft-violet);
+}
+
+/* main */
+main {
+    background: var(--Dark-desaturated-blue);
+}
+
+main h1, main p {
+    color: var(--White);
+}
+
+.insights {
+    color: var(--Soft-violet);
+}
+
+/* main paragraph */
+.info {
+    color: var(--Slightly-transparent-white-p);
+}
+
+span {
+    color: var(--Slightly-transparent-white-stats);
 }
 
 /* Footer signature */
