@@ -10,17 +10,25 @@
 }
 
 body {
-    font-size: 0.9375em;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;;
+    font-size: 0.9375em; /* 15px */
+    text-align: center;
     background: var(--Very-dark-blue);
 }
 
 /* header */
 img {
-    accent-color: var(--Soft-violet);
+    max-width: 20.3125em;
+    color-scheme: var(--Soft-violet);
+    opacity: 0.5;
 }
 
-/* main */
-main {
+/* Card */
+.card {
+    max-width: 20.3125em;
+    height: max-content;
+    margin: 5em auto 0;
     background: var(--Dark-desaturated-blue);
 }
 
@@ -30,6 +38,7 @@ main h1, main p {
 
 .insights {
     color: var(--Soft-violet);
+    text-transform: lowercase;
 }
 
 /* main paragraph */
@@ -39,8 +48,14 @@ main h1, main p {
 
 span {
     color: var(--Slightly-transparent-white-stats);
+    text-transform: uppercase;
 }
 
-/* Footer signature */
-.attribution { font-size: 11px; text-align: center; }
+/* signature */
+.attribution { font-size: 0.6875em; text-align: center; color: white;}
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* media queries *//*
+@media screen and ( max-width: 375px ) {
+
+}
