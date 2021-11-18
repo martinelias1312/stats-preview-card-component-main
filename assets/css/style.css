@@ -23,21 +23,26 @@ body {
     background: var(--Very-dark-blue);
 }
 
-/* image/header */
-.img {
-    border-radius: 0.5em 0.5em 0 0;
-    background-color: var(--Soft-violet);
-    background-blend-mode: multiply;
-    background-size: cover;
-}
-
 /* Card */
 .card {
     max-width: 18.75em;
     height: max-content;
-    margin: 5em auto 0;
+    margin: 5em auto;
     background: var(--Dark-desaturated-blue);
     border-radius: 0 0 0.5em 0.5em;
+}
+
+/* image */
+header {
+    height: 13.761em;
+    background: var(--Soft-violet);
+    border-radius: 0.5em 0.5em 0 0;
+}
+img {
+    max-width: 18.75em;  
+    mix-blend-mode: multiply;
+    filter: opacity(0.8);
+    border-radius: 0.5em 0.5em 0 0;
 }
 
 /* main paragraph and heading */
