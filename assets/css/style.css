@@ -25,7 +25,7 @@ body {
 
 /* Card */
 .card {
-    max-width: 18.75em;
+    max-width: 80%;
     height: max-content;
     margin: 5em auto;
     background: var(--Dark-desaturated-blue);
@@ -34,14 +34,15 @@ body {
 
 /* image */
 header {
-    height: 13.761em;
+    height: 100%;
     background: var(--Soft-violet);
     border-radius: 0.5em 0.5em 0 0;
 }
 
 img {
-    max-width: 18.75em;
-    height: auto;  
+    display: flex;
+    max-width: 100%; 
+    min-height: 15.16333333333333em;
     mix-blend-mode: multiply;
     filter: opacity(0.8);
     border-radius: 0.5em 0.5em 0 0;
@@ -54,6 +55,7 @@ img {
 /* main paragraph and heading */
 main {
     max-width: 80%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -104,18 +106,36 @@ footer {
 /* MEDIA QUERIES *//* display flex ,align-items(vertical) , justify-content(horizontal) */
 @media screen and ( min-width: 800px ) {
 
+    /* flexbox */
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 20% auto 0;
+        max-width: 80%;
+        border-radius: 0.5em 0 0 0.5em;
+    }
+
+    header {
+        border-radius: 0 0.5em 0.5em 0;
+        justify-content: right;
+    }
+
+    main {
+        height: max-content;
+    }
+
+    footer {
+            
+    }
+
     /* img visibility */
     .img-mobile {
         display: none;
     }
 
     .img-desktop {
-        display: inline;
-    }
-
-    .card {
-        display: flex;
-        margin: 50% auto;
-        max-width: 80%;
+        display: block;
+        border-radius: 0 0.5em 0.5em 0;
+        min-height: 100%;
     }
 }
