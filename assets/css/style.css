@@ -9,23 +9,31 @@
     --Slightly-transparent-white-stats: hsla(0, 0%, 100%, 0.6); /* (stat headings) */
 }
 
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
     font-size: 0.9375em; /* 15px */
     text-align: center;
     background: var(--Very-dark-blue);
 }
 
-/* header */
-img {
-    max-width: 100%;
-    accent-color: var(--Soft-violet);
-    opacity: 0.5;
+/* image/header */
+.img {
     border-radius: 0.5em 0.5em 0 0;
+    background-color: var(--Soft-violet);
+    background-blend-mode: multiply;
+    background-size: cover;
 }
 
 /* Card */
 .card {
-    max-width: 80%;
+    max-width: 18.75em;
     height: max-content;
     margin: 5em auto 0;
     background: var(--Dark-desaturated-blue);
@@ -82,13 +90,14 @@ footer {
 .attribution { font-size: 0.6875em; text-align: center; color: white;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* media queries */
-@media screen and ( min-width: 800px ) {
+/* media queries *//* Use display flex ,align-items(vertical) , justify-content(horizontal) */
+/*@media screen and ( min-width: 800px ) {
     img {
         border-radius: 0 0.5em 0.5em 0;
     }
 
     .card {
         border-radius: 0.5em 0 0 0.5em;
+        max-width: 80%;
     }
 }
