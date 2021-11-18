@@ -38,11 +38,17 @@ header {
     background: var(--Soft-violet);
     border-radius: 0.5em 0.5em 0 0;
 }
-img {
-    max-width: 18.75em;  
+
+.img-mobile {
+    max-width: 18.75em;
+    height: auto;  
     mix-blend-mode: multiply;
     filter: opacity(0.8);
     border-radius: 0.5em 0.5em 0 0;
+}
+
+.img-desktop {
+    display: none;
 }
 
 /* main paragraph and heading */
@@ -95,14 +101,15 @@ footer {
 .attribution { font-size: 0.6875em; text-align: center; color: white;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* media queries *//* Use display flex ,align-items(vertical) , justify-content(horizontal) */
-/*@media screen and ( min-width: 800px ) {
-    img {
-        border-radius: 0 0.5em 0.5em 0;
-    }
+/* MEDIA QUERIES *//* display flex ,align-items(vertical) , justify-content(horizontal) */
+@media screen and ( min-width: 800px ) {
 
-    .card {
-        border-radius: 0.5em 0 0 0.5em;
-        max-width: 80%;
+    /* img visibility */
+    .img-mobile {
+    display: none;
+}
+
+    .img-desktop {
+        display: inline;
     }
 }
