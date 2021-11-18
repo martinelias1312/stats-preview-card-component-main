@@ -39,7 +39,7 @@ header {
     border-radius: 0.5em 0.5em 0 0;
 }
 
-.img-mobile {
+img {
     max-width: 18.75em;
     height: auto;  
     mix-blend-mode: multiply;
@@ -106,10 +106,16 @@ footer {
 
     /* img visibility */
     .img-mobile {
-    display: none;
-}
+        display: none;
+    }
 
     .img-desktop {
         display: inline;
+    }
+
+    .card {
+        display: flex;
+        margin: 50% auto;
+        max-width: 80%;
     }
 }
