@@ -111,7 +111,6 @@ footer {
         display: flex;
         flex-direction: row-reverse;
         margin: 15% auto 0;
-        max-width: 80%;
         border-radius: 0.5em;
     }
 
@@ -120,23 +119,22 @@ footer {
     }
 
     .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-align: left;
     }
 
-    main, footer {
-        margin: 0 auto;  
-    }
-
-    main {
-        height: fit-content;
+    main h1 {
+        margin-top: 0;
     }
 
     footer {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
-        margin: 3em;
         padding: 0;
+        min-width: 80%;
     }
 
     footer p {
