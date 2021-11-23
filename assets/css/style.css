@@ -112,22 +112,31 @@ footer {
         flex-direction: row-reverse;
         margin: 15% auto 0;
         max-width: 80%;
-        border-radius: 0.5em 0 0 0.5em;
+        border-radius: 0.5em;
     }
 
     header {
         border-radius: 0 0.5em 0.5em 0;
     }
 
+    .text {
+        text-align: left;
+    }
+
+    main, footer {
+        margin: 0 auto;  
+    }
+
     main {
-        order: 1;
         height: fit-content;
     }
 
     footer {
         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3em;
         padding: 0;
-        height: fit-content;
     }
 
     footer p {
