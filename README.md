@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![375px](assets\img\375px-Frontend-Mentor-Stats-preview-card-component.png)  
-![1440px](assets\img\1440px-Frontend-Mentor-Stats-preview-card-component.png)
+![assets/img/375px-Frontend-Mentor-Stats-preview-card-component.png](assets/img/375px-Frontend-Mentor-Stats-preview-card-component.png)  
+![assets/img/1440px-Frontend-Mentor-Stats-preview-card-component.png](assets/img/1440px-Frontend-Mentor-Stats-preview-card-component.png)
 
 ### Links
 
