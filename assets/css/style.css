@@ -53,17 +53,17 @@ img {
 }
 
 /* main paragraph and heading */
-main {
+.card-main {
     max-width: 80%;
     height: auto;
     margin: 0 auto;
 }
 
-main h1 {
+.card-main h1 {
     margin-top: 1em;
 }
 
-main h1, footer p {
+.card-main h1, footer p {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.7em;
@@ -126,7 +126,7 @@ main h1, footer p {
         text-align: left;
     }
 
-    main h1 {
+    .card-main h1 {
         margin-top: 0;
     }
 
