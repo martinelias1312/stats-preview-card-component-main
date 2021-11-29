@@ -84,10 +84,10 @@ main h1, footer p {
 }
 
 /* Card Footer - stats */
-footer p {
+.card-footer p {
     margin-bottom: 0.2em;
 }
-footer span {
+.card-footer span {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 0.8em;
     font-weight: 400;
@@ -95,7 +95,7 @@ footer span {
     text-transform: uppercase;
 }
 
-footer {
+.card-footer {
     padding-bottom: 2em;
 }
 
@@ -130,7 +130,7 @@ footer {
         margin-top: 0;
     }
 
-    footer {
+    .card-footer {
         display: flex;
         justify-content: space-between;
         padding: 0;
