@@ -63,7 +63,7 @@ img {
     margin-top: 1em;
 }
 
-.card-main h1, footer p {
+.card-main h1, .card-footer p {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 1.7em;
@@ -137,7 +137,7 @@ img {
         min-width: 80%;
     }
 
-    footer p {
+    .card-footer p {
         margin: 0;
     }
 
