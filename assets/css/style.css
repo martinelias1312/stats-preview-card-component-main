@@ -25,7 +25,7 @@ body {
 
 /* Card */
 .card {
-    max-width: 80%;
+    max-width: 73.3333em;
     height: max-content;
     margin: 5em auto;
     background: var(--Dark-desaturated-blue);
@@ -112,6 +112,7 @@ img {
         flex-direction: row-reverse;
         margin: 15% auto 0;
         border-radius: 0.5em;
+        max-width: 80%;
     }
 
     header {
