@@ -104,7 +104,7 @@ img {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* MEDIA QUERIES *//* display flex ,align-items(vertical) , justify-content(horizontal) */
-@media screen and ( min-width: 800px ) {
+@media screen and ( max-width: 800px ) {
 
     /* flexbox */
     .card {
